@@ -1,0 +1,114 @@
+body{
+  margin: 0px;
+  padding: 0px;
+  background-color: rgb(15, 1, 1);
+  border-style: groove;
+  border-radius: 9px;
+  border-color: rgb(221, 131, 13);
+  margin-left: 574px;
+  margin-top: 50px;
+  margin-right: 574px;
+}
+
+h1{
+  color: white;
+  background: rgb(243, 147, 45);
+  padding: 10px;
+  width: 360px;
+  margin-inline: auto;
+  text-align: center;
+  border-radius: 7px;
+}
+
+.box{
+  width: 360px;
+  height: 380px;
+  margin-inline: auto;
+  border-radius: 10px;
+  border: rgba(0, 0, 0, 0.349) 2px solid;
+  font-size: 18px;
+  padding: 13px;
+  overflow-y: auto;
+  overflow-x: auto;
+}
+
+input[type="checkbox"]:hover{
+  cursor: pointer;
+}
+
+.box2{
+  width: 360px;
+  margin-inline: auto;
+  font-size: 28px;
+  padding: 20px;
+  justify-content: space-between;
+  align-items: baseline;
+}
+.inputtext{
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 80px;
+}
+
+.heading{
+  font-weight: bold;
+  font-size: 18px;
+  margin-left: 10px;
+}
+
+.completed{
+  font-size: 15px;
+  border-radius: 20px;
+  color: white;
+  padding: 3px;
+  background: rgb(8, 195, 8);
+  margin-left: 10px;
+}
+
+.checkbox{
+  height: 20px;
+  width: 20px;
+}
+
+.todoitem{
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  margin: block 5px;
+}
+.text{
+  margin-left: 10px;
+}
+
+.btn{
+  background: white;
+  border: none;
+  margin-left: auto;
+  padding: 5px;
+}
+
+.btn:hover{
+  color: rgba(0, 0, 0, 0.568);
+  cursor: pointer;
+}
+
+input[type= "text"] {
+  outline: none;
+}
+.btnadd{
+  border-radius: 2px;
+  padding: 5px;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  background: white;
+  margin-left: 10px;
+}
+
+.btnadd:hover{
+  background: rgb(250, 151, 13);
+  cursor: pointer;
+}
+
+.main-Box{
+  background: rgb(244, 224, 248);
+  border-radius: 8px;
+}
